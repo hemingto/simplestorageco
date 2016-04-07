@@ -34,9 +34,8 @@
 
 		<div id ='alerts'>
 		<?php
-			// var_dump($this->session->userdata());
-			// echo "<div id='success'>".$this->session->flashdata('success')."</div>";
-			// echo "<div id='error'>".$this->session->flashdata('errors')."</div>";
+			echo "<div id='success'>".$this->session->flashdata('success')."</div>";
+			echo "<div id='error'>".$this->session->flashdata('errors')."</div>";
 		?>
 		</div>
 	</div>
