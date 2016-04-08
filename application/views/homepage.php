@@ -1,6 +1,12 @@
+<html>
+
 <?php
-	require 'partials/header_partial.html';
+	require 'partials/html_head.html';
 ?>
+<head>
+	<title>Home | Simple Storage Co.</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/homepage.css">
+</head>
 
 <body>
 
@@ -13,17 +19,19 @@
 <div id="container">
 	<div class="icon_div">
 		<form action='/add' method='post'>
-			<input type="image" src="assets/img/add_customer_icon.png" alt="add_customer" id="add_customer" class="grow">
+			<input type="image" src="assets/img/add_customer_icon.png" alt="add customer information" class="icon_img grow">
 			<input type="submit" value="Add Customer" class="input_button">
 		</form>
 	</div>
 	<div class="icon_div">
 		<form action='' method='post'>
+			<input type="image" src="assets/img/search_info_icon.png" alt="search customer information" class="icon_img grow">
 			<input type="submit" value="Search Customer Info" class="input_button">
 		</form>
 	</div>
 	<div class="icon_div">
 		<form action='' method='post'>
+			<input type="image" src="assets/img/update_info_icon.png" alt="update customer information" class="icon_img grow">
 			<input type="submit" value="Update Customer Info" class="input_button">
 		</form>
 	</div>
@@ -36,4 +44,5 @@
 </div>
 
 </body>
+
 </html>
