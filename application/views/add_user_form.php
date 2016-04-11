@@ -45,7 +45,7 @@
 			<input type='text' name='zip' placeholder="Zip">
 			<input type='text' name='state' placeholder="State">
 			<input type='text' name='country' value="USA">
-			<input type='hidden' name='hidden_field'>
+			<input type='hidden' name='customer_info'>
 			<input type='submit' value='Next' class="submit_button">
 		</form>
 	</div>
