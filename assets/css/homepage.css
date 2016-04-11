@@ -23,20 +23,19 @@ h1 {
 	text-align: center;
 }
 
-#small_container {
-	width:80%;
-	margin:10% auto;
+.first {
+	margin-top:10px;
+}
+
+.small_container {
+	width:85%;
+	margin:25px auto 0px auto;
 	text-align: center;
 }
 
-#logo {
-	margin-top:20px;
-	margin-bottom: 20px;
-}
-
 #logo, #logo_black {
-	width:200px;
-	height:200px;
+	width:175px;
+	height:175px;
 	display:block;
 	margin-left: auto;
 	margin-right: auto;
@@ -49,7 +48,7 @@ h1 {
 }
 
 .line {
-	width:45%;
+	width:40%;
 	height:2px;
 	background-color: #2a2a2a;
 	opacity:.3;
@@ -88,16 +87,26 @@ h1 {
 
 .icon_div {
 	width: 300px;
-	height: 95px;
-	margin-top:100px;
 	display: inline-block;
 	text-align: center;
 }
 
 .icon_img {
-	width:200px;
-	height:200px;
+	display: block;
+	margin:0 auto;
+	width:150px;
+	height:150px;
 	margin-bottom: 10px;
+	outline:none;
+}
+
+.back {
+	width:35px;
+	height:23px;
+	position:absolute;
+	top:5;
+	left:2;
+	outline: none;
 }
 
 

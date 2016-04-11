@@ -17,7 +17,7 @@
 </div>
 
 <div id="container">
-	<div class="icon_div">
+	<div class="icon_div first">
 		<form action='/add' method='post'>
 			<input type="image" src="assets/img/add_customer_icon.png" alt="add customer information" class="icon_img grow">
 			<input type="submit" value="Add Customer" class="input_button">
@@ -37,7 +37,7 @@
 	</div>
 </div>
 
-<div id="small_container">
+<div class="small_container">
 	<div class="line"></div>
 	<img src="assets/img/ss_logo_black.png" alt="logo" id="logo_black">
 	<div class="line"></div>

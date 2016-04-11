@@ -2,48 +2,94 @@
    color: #2a2a2a;
    font-family: 'Open Sans', sans-serif;
    font-weight: 600;
+   opacity:.9;
 }
 
 :-moz-placeholder { /* Firefox 18- */
    color: #2a2a2a;
    font-family: 'Open Sans', sans-serif;
-   font-weight: 600;  
+   font-weight: 600;
+   opacity:.9;  
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
    color: #2a2a2a;
    font-family: 'Open Sans', sans-serif;
-   font-weight: 600; 
+   font-weight: 600;
+   opacity:.9; 
 }
 
 :-ms-input-placeholder {  
    color: #2a2a2a; 
    font-family: 'Open Sans', sans-serif;
-   font-weight: 600; 
+   font-weight: 600;
+   opacity:.9; 
 }
 
 input {
 	display:block;
+	width:100%;
 	padding:5px;
-	margin:5px;
+	margin: 5px auto;
+	height:36px;
+	opacity: .9;
+}
+
+input:nth-child(4) {
+	margin-bottom:25px;
+}
+
+input:focus {
+	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  	padding: 3px 0px 3px 3px;
+  	margin: 5px 1px 3px 0px;
+  	border: 1px solid rgba(81, 203, 238, 1);
+}
+
+.small_container p {
+	font-size: .8em;
+	margin-bottom:25px; 
+}
+
+h2 {
+	font-size: 1em;
+}
+
+.inline {
+	display: inline-block;
+}
+
+.small_icon_div {
+	margin-bottom: -25px; 
+}
+
+.block {
+	display: block;
 }
 
 form {
-	display: inline-block;
+	display: block;
+	margin: 0px auto;
 	text-align: center;
-/*	border: solid #2a2a2a 1px;*/
-	padding:25px;
+	width:100%;
+	max-width:350px;
+}
+
+.submit_button {
+	background:none;
+	background-color:#dddddd;
+	-webkit-appearance: none;
+	outline:none;
+	text-decoration: none;
+	border: none;
+	font-weight: 600;
+
 }
 
 .center {
-	width:100%;\
+	width:100%;
 	height:100%;
 	text-align: center;
-}
-
-#logo {
-	width:150px;
-	height: 150px;
 }
 
 .small_icon {
@@ -51,7 +97,7 @@ form {
 	margin: 0 auto;
 	width:40px;
 	height:21.8px;
-	margin:10px 10px 0px 10px;
+	margin:20px 10px;
 }
 
 .camera_icon {
@@ -62,6 +108,6 @@ form {
 	opacity: .4;
 }
 
-#small_container {
-	margin:2% auto 0px auto;
-}
+
+
+

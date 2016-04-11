@@ -23,43 +23,40 @@
 ?>
 </div>
 
-<div class="center gradient">
+<div class="center">
 
-	<div class="block">
+	<div class="block small_icon_div">
 		<img src="assets/img/small_customer_icon.png" alt="Customer icon" class="small_icon current">
 		<img src="assets/img/small_money_icon.png" alt="Customer icon" class="small_icon opacity">
 		<img src="assets/img/small_camera_icon.png" alt="Customer icon" class="small_icon camera_icon opacity">
 	</div>
 
-	<form action='/add/process' method='post'>
-		<input type='text' name='email' placeholder="Email">
-		<input type='password' name='password' placeholder="Password">
-		<input type='password' name='confirm_password' placeholder="Confirm Password">
-		<input type='text' name='first_name' placeholder="First Name">
-		<input type='text' name='last_name' placeholder="Last Name">
-		<input type='tel' name='phone_number' placeholder="Phone Number">
+	<div class="small_container">
+		<form action='/add/process' method='post'>
+			<input type='text' name='email' placeholder="Email">
+			<input type='password' name='password' placeholder="Password">
+			<input type='password' name='confirm_password' placeholder="Confirm Password">
+			<p>Remember your login info so you can access your storage items online</p>
+			<input type='text' name='first_name' placeholder="First Name">
+			<input type='text' name='last_name' placeholder="Last Name">
+			<input type='tel' name='phone_number' placeholder="Phone Number">
+			<input type='text' name='street' placeholder="Street">
+			<input type='text' name='city' placeholder="City">
+			<input type='text' name='zip' placeholder="Zip">
+			<input type='text' name='state' placeholder="State">
+			<input type='text' name='country' value="USA">
+			<input type='hidden' name='hidden_field'>
+			<input type='submit' value='Next' class="submit_button">
+		</form>
+	</div>
 
-		<h2>Home Address</h2>
-
-		<input type='text' name='street' placeholder="Street">
-		<input type='text' name='city' placeholder="City">
-		<input type='text' name='zip' placeholder="Zip">
-		<input type='text' name='state' placeholder="State">
-		<input type='text' name='country' value="USA">
-
-		<input type='submit' value='Add Customer'>
-	</form>
-
-	<div id="small_container">
+	<div class="small_container">
 		<div class="line"></div>
 		<img src="assets/img/ss_logo_black.png" alt="logo" id="logo_black">
 		<div class="line"></div>	
 	</div>
 
 </div>
-
-
-
 
 </body>
 
