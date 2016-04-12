@@ -1,7 +1,7 @@
 <html>
 
 <?php
-	require 'partials/html_head.html';
+	require 'partials/html_head.php';
 ?>
 <head>
 	<title>Add Customer | Simple Storage Co.</title>

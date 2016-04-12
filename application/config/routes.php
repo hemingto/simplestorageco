@@ -51,6 +51,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $route['default_controller'] = 'home';
 $route['add'] = 'add_user';
+$route['addcard'] = "add_user/card";
 $route['add/process'] = 'add_user/process';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

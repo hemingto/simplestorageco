@@ -50,7 +50,11 @@ class Add_User extends CI_Controller {
 			$add_user = $this->users->add_user($user_details);
 
 
-			redirect('/add');
+			redirect('/addcard');
 		}
+	}
+	public function card() 
+	{
+		$this->load->view('add_card_form');
 	}
 }
