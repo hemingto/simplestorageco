@@ -35,6 +35,18 @@ input {
 	opacity: .9;
 }
 
+.half {
+	width:49%;
+}
+
+.two_thirds {
+	width:69%;
+}
+
+.one_third {
+	width:29%;
+}
+
 input:nth-child(4) {
 	margin-bottom:25px;
 }
