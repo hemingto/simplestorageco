@@ -16,19 +16,19 @@
 
 <body>
 
-<div id ='alerts'>
-<?php
-	echo "<div id='success'>".$this->session->flashdata('success')."</div>";
-	echo "<div id='error'>".$this->session->flashdata('errors')."</div>";
-?>
-</div>
-
 <div class="center">
 
 	<div class="block small_icon_div">
 		<img src="assets/img/small_customer_icon.png" alt="Customer icon" class="small_icon current">
 		<img src="assets/img/small_money_icon.png" alt="Customer icon" class="small_icon opacity">
 		<img src="assets/img/small_camera_icon.png" alt="Customer icon" class="small_icon camera_icon opacity">
+	</div>
+
+	<div id ='alerts'>
+		<?php
+			echo "<div class='success'>".$this->session->flashdata('success')."</div>";
+			echo "<div class='error'>".$this->session->flashdata('errors')."</div>";
+		?>
 	</div>
 
 	<div class="small_container">

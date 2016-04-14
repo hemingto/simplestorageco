@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Add_User extends CI_Controller {
+class AddUser extends CI_Controller {
 
 	public function index()
 	{
@@ -26,7 +26,6 @@ class Add_User extends CI_Controller {
 			$this->view_data['errors'] = validation_errors();
 			$this->session->set_flashdata('errors', validation_errors());
 			redirect('/add');
-
 
 		}
 		else //success

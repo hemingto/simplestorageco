@@ -36,7 +36,7 @@ input {
 }
 
 .half {
-	width:49%;
+	width:49.2%;
 }
 
 .two_thirds {
@@ -44,7 +44,7 @@ input {
 }
 
 .one_third {
-	width:29%;
+	width:29.4%;
 }
 
 input:nth-child(4) {
@@ -118,6 +118,10 @@ form {
 
 .opacity {
 	opacity: .4;
+}
+
+.error p {
+	color:#990000;
 }
 
 
