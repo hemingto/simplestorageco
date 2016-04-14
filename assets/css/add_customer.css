@@ -1,11 +1,11 @@
-::-webkit-input-placeholder {
+::-webkit-input-placeholder, select {
    color: #2a2a2a;
    font-family: 'Open Sans', sans-serif;
    font-weight: 600;
    opacity:.9;
 }
 
-:-moz-placeholder { /* Firefox 18- */
+:-moz-placeholder, select { /* Firefox 18- */
    color: #2a2a2a;
    font-family: 'Open Sans', sans-serif;
    font-weight: 600;
@@ -29,7 +29,7 @@
 input {
 	display:block;
 	width:100%;
-	padding:5px;
+	padding:5px; 
 	margin: 5px auto;
 	height:36px;
 	opacity: .9;
@@ -51,7 +51,7 @@ input:nth-child(4) {
 	margin-bottom:25px;
 }
 
-input:focus {
+input:focus, select:focus {
 	box-shadow: 0 0 5px rgba(81, 203, 238, 1);
   	padding: 3px 0px 3px 3px;
   	margin: 5px 1px 3px 0px;

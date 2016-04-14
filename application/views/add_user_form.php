@@ -42,9 +42,9 @@
 			<input type='tel' name='phone_number' placeholder="Phone Number">
 			<input type='text' name='street' placeholder="Street">
 			<input type='text' name='city' placeholder="City" class='inline half'>
-			<input type='text' name='state' placeholder="State" class="inline half">
+			<input type='text' name='state' placeholder="California" value="California" class='inline half' readonly>
 			<input type='text' name='zip' placeholder="Zip" class="inline two_thirds">
-			<input type='text' name='country' value="USA" class="inline one_third">
+			<input type='text' name='country' value="USA" class="inline one_third" readonly>
 			<input type='hidden' name='customer_info'>
 			<input type='submit' value='Next' class="submit_button">
 		</form>
