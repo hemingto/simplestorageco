@@ -6,7 +6,7 @@ class AddUser extends CI_Controller {
 	public function index()
 	{
 		$this->load->helper('url');
-		$this->load->view('add_user_form');
+		$this->load->view('user_form');
 	}
 	public function process() 
 	{
@@ -54,6 +54,10 @@ class AddUser extends CI_Controller {
 	}
 	public function card() 
 	{
-		$this->load->view('add_card_form');
+		$this->load->view('card_form');
+	}
+
+	public function order() {
+		$this->load->view('order_form');
 	}
 }
