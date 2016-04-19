@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class AddUser extends CI_Controller {
+class adduser extends CI_Controller {
 
 	public function index()
 	{
@@ -60,4 +60,14 @@ class AddUser extends CI_Controller {
 	public function order() {
 		$this->load->view('order_form');
 	}
+
+	public function orderprocess() {
+			$user_order = array(
+				'order_description' => $this->input->post('order_description'),
+				'square_feet' => $this->input->post('square_feet'),
+				'cubic_feet' => $this->input->post('cubic_feet'),
+				'price' => $this->input->post('price')
+				);
+			var_dump($user_order);
+		}
 }

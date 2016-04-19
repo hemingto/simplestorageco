@@ -1,25 +1,65 @@
-input:disabled {
+input:read-only {
 	background-color: #f1f1f1;
 	border:none;
 	outline:none;
 	width:none;	
 }
 
+input:-moz-read-only {
+	background-color: #f1f1f1;
+	border:none;
+	outline:none;
+	width:none;	
+}
+
+input:read-only:focus {
+	box-shadow: none;
+  	border: none;
+}
+
 form {
 	margin-bottom:25px;
-	padding:10px 0px;
+	padding:10px 0px 0px 0px;
 	background-color:#f1f1f1;
 	border:2px solid rgba(42,42,42,0.3);
 	border-radius:2px;
 }
 
 .submit_button {
-	width:85%;
-	background-color: #e3c294;
+	width:100%;
+	background-color: rgba(42,42,42,0.3);
+	margin:0px;
+
+}
+
+.order_des, .price, .dollar_sign {
+	font-size: 1.3em;
+	opacity:1;
+}
+
+.price {
+	margin-top:0px;
+	width:100px;
+	padding-left:0px;
 }
 
 .order_des {
-	font-size: 1.3em;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+
+}
+
+.dollar_sign {
+	margin:0px;
+}
+
+.small_font {
+	font-size:.8em;
+}
+
+.small_input {
+	margin:0px;
+	height:24px;
 }
 
 .top {
@@ -32,6 +72,27 @@ form {
 }
 
 .small_container {
-	margin-top:75px;
 	max-width: 800px
 }
+
+.order_context {
+	margin:0px;
+	padding:5px;
+	text-align: left;
+	opacity:.9;
+}
+
+.bigger_order {
+	opacity:.8;
+	margin:0px;
+}
+
+.no_margin {
+	margin-top: 0px;
+}
+
+.left {
+	float: left;
+	padding-left:5px;
+}
+

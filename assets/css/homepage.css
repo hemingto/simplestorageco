@@ -29,7 +29,7 @@ h1 {
 
 .small_container {
 	width:85%;
-	margin:25px auto 0px auto;
+	margin:5% auto 0px auto;
 	text-align: center;
 }
 
@@ -109,6 +109,9 @@ h1 {
 	outline: none;
 }
 
+.small_icon_div {
+	margin-bottom: -5%; 
+}
 
 
 

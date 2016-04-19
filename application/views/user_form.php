@@ -32,11 +32,11 @@
 	</div>
 
 	<div class="small_container">
-		<form action='/add/process' method='post'>
+		<form action='process' method='post'>
 			<input type='text' name='email' placeholder="Email">
 			<input type='password' name='password' placeholder="Password">
 			<input type='password' name='confirm_password' placeholder="Confirm Password">
-			<p>Remember your login info so you can access your storage items online</p>
+			<p class="reminder">Remember your login info so you can access your storage items online</p>
 			<input type='text' name='first_name' placeholder="First Name">
 			<input type='text' name='last_name' placeholder="Last Name">
 			<input type='tel' name='phone_number' placeholder="Phone Number">
