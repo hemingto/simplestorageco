@@ -70,4 +70,8 @@ class adduser extends CI_Controller {
 				);
 			var_dump($user_order);
 		}
+
+	public function appointment() {
+		$this->load->view('appointment_form');
+	}
 }

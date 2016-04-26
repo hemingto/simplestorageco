@@ -33,17 +33,17 @@
 
 	<div class="small_container">
 		<form action='process' method='post'>
-			<input type='text' name='email' placeholder="Email">
-			<input type='password' name='password' placeholder="Password">
-			<input type='password' name='confirm_password' placeholder="Confirm Password">
+			<input class="focus" type='text' name='email' placeholder="Email">
+			<input class="focus" type='password' name='password' placeholder="Password">
+			<input class="focus" type='password' name='confirm_password' placeholder="Confirm Password">
 			<p class="reminder">Remember your login info so you can access your storage items online</p>
-			<input type='text' name='first_name' placeholder="First Name">
-			<input type='text' name='last_name' placeholder="Last Name">
-			<input type='tel' name='phone_number' placeholder="Phone Number">
-			<input type='text' name='street' placeholder="Street">
-			<input type='text' name='city' placeholder="City" class='inline half'>
+			<input class="focus" type='text' name='first_name' placeholder="First Name">
+			<input class="focus" type='text' name='last_name' placeholder="Last Name">
+			<input class="focus" type='tel' name='phone_number' placeholder="Phone Number">
+			<input class="focus" type='text' name='street' placeholder="Street">
+			<input type='text' name='city' placeholder="City" class='inline half focus'>
 			<input type='text' name='state' placeholder="California" value="California" class='inline half' readonly>
-			<input type='text' name='zip' placeholder="Zip" class="inline two_thirds">
+			<input type='text' name='zip' placeholder="Zip" class="inline two_thirds focus">
 			<input type='text' name='country' value="USA" class="inline one_third" readonly>
 			<input type='hidden' name='customer_info'>
 			<input type='submit' value='Next' class="submit_button">

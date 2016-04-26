@@ -55,5 +55,7 @@ $route['addcard'] = "adduser/card";
 $route['addorder'] = "adduser/order";
 $route['processorder'] ="adduser/orderprocess";
 $route['process'] = 'adduser/process';
+$route['appointment'] = 'adduser/appointment';
+$route['appointmentprocess'] ='adduser/appointmentprocess';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
